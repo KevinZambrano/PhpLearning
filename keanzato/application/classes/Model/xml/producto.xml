@@ -1,0 +1,24 @@
+<class id="producto" name="producto">
+
+<producto1 value="
+select titulo, unidad, moneda, precio
+from producto
+where
+tipo_producto = 1
+"/>
+
+<producto2 value="
+select titulo, unidad, moneda, precio
+from producto
+where
+tipo_producto = 2
+"/>
+
+<producto3 value="
+select titulo, unidad, moneda, precio
+from producto
+where
+tipo_producto = 3
+"/>
+
+</class>

@@ -1,0 +1,15 @@
+<class id="administrador" name="administrador">
+
+				<login value=" 
+				
+				SELECT nombre_usuario, tipo_usuario
+				FROM usuario
+				where 
+					nombre_usuario = '@@usuario@@'
+					and password = '@@password@@'
+				
+				
+				" />
+				
+
+</class>

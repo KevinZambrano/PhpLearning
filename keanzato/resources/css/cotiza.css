@@ -1,0 +1,17 @@
+.borde
+{
+	border: 0px solid blue;	
+}
+
+.links{
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 1px solid #000000;
+}
+
+.fondo
+{
+	background-color: #EEECEC;
+}
+

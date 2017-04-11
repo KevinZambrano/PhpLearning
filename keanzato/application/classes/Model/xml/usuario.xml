@@ -1,0 +1,22 @@
+<class id="usuario" name="usuario">
+
+				<login value=" 
+				
+				SELECT nombre_usuario, tipo_usuario
+				FROM usuario
+				where 
+					nombre_usuario = '@@usuario@@'
+					and password = '@@password@@'
+				
+				
+				" />
+				
+				<producto value="
+select titulo, unidad, moneda, precio
+from producto
+where
+tipo_producto = 1
+"/>
+
+
+</class>

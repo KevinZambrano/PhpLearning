@@ -1,0 +1,19 @@
+.negrita{
+	font-weight: bold;
+}
+
+.espaciar{
+	
+	width: 900px;
+}
+
+.espaciarImagen{
+	
+	width: 100%;
+	height: 100px;
+}
+
+.alignLeft{
+	
+	float: left;
+}

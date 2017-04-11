@@ -1,0 +1,18 @@
+.spaceImagen{
+	
+	width: 100%; 
+	height: 100px;
+}
+
+.alignLeft{
+	float: left;
+}
+
+.alignCenter{
+	float: center;
+}
+
+.sizeButton{
+	
+	FONT-SIZE: 11px;
+}
