@@ -5,7 +5,7 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 <?php
- require_once 'core/Usuario.php';
+ require_once 'core/UsuarioPrincipal.php';
  $usuarios = Usuario::recuperarTodos();
 ?>
 <h4>Cantidad de usuarios: <?php echo count($usuarios); ?></h4>

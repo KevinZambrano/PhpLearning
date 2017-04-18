@@ -1,3 +1,5 @@
+
+
 <! DOCTYPE html>
 <html>
 <head>
@@ -55,9 +57,9 @@
  <div class="collapse navbar-collapse" id="myNavbar">
    <ul class="nav navbar-nav">
      <li class="active"><a href="#">Dashboard</a></li>
-     <li><a href="agregarUsuario.php">Agregar Usuario</a></li>
-     <li><a href="#">Gender</a></li>
-     <li><a href="#">Geo</a></li>
+     <li><a href="?op=agregarUsuario">Agregar Usuario</a></li>
+     <li><a href="?op=insertImagen">Imagen</a></li>
+     <li><a href="?op=login">Login</a></li>
    </ul>
  </div>
 </div>
@@ -70,8 +72,8 @@
    <ul class="nav nav-pills nav-stacked">
      <li class="active"><a href="?op=inicio">Dashboard</a></li>
       <li><a href="?op=agregarUsuario">Agregar Usuario</a></li>
-     <li><a href="#section3">Gender</a></li>
-     <li><a href="#section3">Geo</a></li>
+     <li><a href="?op=insertImagen">Imagen</a></li>
+     <li><a href="?op=login">Login</a></li>
    </ul><br>
  </div>
  <br>

@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<h1>Registro Usuario</h1><br>
+<h1 style="margin: 6px;">Registro Usuario</h1><br>
 <form class="form-horizontal col-sm-8" action="controllers/agregarController.php" method="get">
   <div class="form-group">
     <label class="control-label col-sm-2" for="correo">Correo:</label>

@@ -1,5 +1,5 @@
 <?php
- require_once '../conexion/Conexion.php';
+ require_once 'conexion/Conexion.php';
  class Usuario {
    private $correo;
    private $nombre;

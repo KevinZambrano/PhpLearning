@@ -1,6 +1,6 @@
 <?php
 
-   $op=$_REQUEST["op"]; //declaramos la variable $op que va a contener el valor de la opcion clickeada
+   $op=@$_REQUEST["op"]; //declaramos la variable $op que va a contener el valor de la opcion clickeada
 
    switch($op){ //con el switch indicamos que valores va a tener dicha variable segun cada opcion
 
@@ -17,9 +17,13 @@
            $titulo="Usuarios | Nuevos";
            break;
 
-       case "contacto":
-           $contenido="php/contacto.php";
-           $titulo="Contacto | Mi página";
+       case "insertImagen":
+           $contenido="insertImagen.php";
+           $titulo="Imagen | insertar";
+           break;
+       case "login":
+           $contenido = "login.php";
+           $titulo = "Login | ingresar";
            break;
 
        default:
